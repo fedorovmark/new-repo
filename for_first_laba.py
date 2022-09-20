@@ -44,9 +44,9 @@ magic_f(array_x1, array_y1)
 magic_f(array_x2, array_y2)
 plt.minorticks_on()
 plt.grid(which='minor',
-        color = 'k')
+        color = 'r')
 plt.grid(which='minor',
-        color = 'k',
+        color = 'r',
         linestyle = ':')
 plt.grid()
 plt.show()
