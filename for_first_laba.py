@@ -50,4 +50,3 @@ plt.grid(which='minor',
         linestyle = ':')
 plt.grid()
 plt.show()
-plt.savefig('first_laba.png')
