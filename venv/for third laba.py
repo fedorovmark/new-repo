@@ -5,14 +5,14 @@ R = 114.6 #мм
 dR=0.5#мм
 r = 30.5#мм
 dr=0.3#мм
-m=776.9+585.6+934.7#г
+m=668.2+669.1+934.7#г
 dm=0.6#г
 z0=216.9#см
 dz0=0.15#см
 k = (g*(R/(10**3))*(r/(10**3)))/(4*(math.pi**2)*(z0/(10**2)))
 dk = sqrt((dR/R)**2+(dr/r)**2+(dz0/z0)**2)*k
-
-periods = [3.90, 3.90, 3.90, 3.90]
+period = 4.36
+periods = [period, period, period, period]
 sum_sqrt=0
 N=len(periods)
 for i in range(N):
